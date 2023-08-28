@@ -1,0 +1,165 @@
+## Ignore all Visual Studio auxiliary files, build results, and
+## any other intermediate/temporary files produced by tools like IDA Pro
+## 
+## For the original VS template, see
+## https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+
+# |Visual Studio
+# CAUTION: Ignoring solution files breaks the Switch Views button
+*.aps
+#*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+.vs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# |User- or workspace-specific VS Code files
+.vscode/
+
+# |Vim
+*.un~
+*.vim
+*~
+
+# |qeditor.exe
+asmbl.txt
+assmbl.bat
+disasm.txt
+
+# |Build results
+
+# COM files (not needed when programming for Windows)
+*.com
+
+#*.def
+*.dll*
+*.exe*
+!*.exe.manifest
+!*.exe.[0-9]*.manifest
+*.lib
+*.log
+*.lst
+*.map
+*.obj
+
+# Debug information files
+*.pdb
+
+*.res
+
+# BSCMAKE input files
+*.sbr
+
+mllink$.lnk
+out
+
+# |Glue code
+
+# Ignore all batch files but not those residing under "src"
+# CAUTION: Do not allow this to shadow the QEDITOR.EXE assmbl.bat rule
+*.bat
+!src/**/*.bat
+
+*.cmd
+*.ps1
+
+# |IDA database and script files
+
+# Graph description files
+*.gdl
+
+*.i64
+*.id0
+*.id1
+*.id2
+*.idb
+*.idc
+*.nam
+*.til
+
+# |Ghidra
+*.gpr
+*.rep
+
+# |Excel
+*.xls
+
+# Excel 2007
+*.xlsb
+
+*.xlsm
+*.xlsx
+
+# |Help files
+# For more info, see https://en.wikipedia.org/wiki/WinHelp
+.ann
+.bmk
+
+# Ignore all bitmap help files but do not ignore any resources
+.bmp
+!resources/**/*.bmp
+
+# Microsoft Compiled HTML Help
+#.chm
+
+.cnt
+.dib
+.ftg
+.fts
+.gid
+.hlp
+.hpj
+.rtf
+.shg
+.wmf
+
+# |Git
+*.patch
+
+# |Standalone / ad hoc language services files
+# See https://learn.microsoft.com/en-us/visualstudio/extensibility/adding-an-lsp-extension?view=vs-2019
+#*.json
+*.pkgdef
+*.plist
+*.snippet
+*.tm[Bb]undle
+*.tm[Ll]anguage
+*.tm[Pp]references
+*.tm[Tt]heme
+Code Snippets/
+Grammars/
+
+# |Archive/package files
+*.rar
+*.tar.gz
+*.zip
+
+# |Temporary directories
+tmp
+
+# |Temporary copy/backup files
+* - Copy*
+* copy*
+*.bak
+*.old
+*.orig
+
+# See Vim
+#*~
+
+# |Other temporary files
+.~*
+~$*
+~*.
+~*.tmp
+
+# |To-dos
+TODO
+TODO.*
+
+# |Other
+* - Shortcut*
